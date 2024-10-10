@@ -1,0 +1,61 @@
+* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.15; /* Corrects a bug in Firefox */
+    -webkit-text-size-adjust: 100%; /* Prevents text size adjustment after orientation changes in iOS */
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em; /* Default size for h1 */
+    margin: 0.67em 0;
+}
+
+hr {
+    height: 0; /* Prevents double spacing */
+    overflow: visible; /* Allows for a proper border */
+    border: 0; /* Removes default border */
+    border-top: 1px solid #ccc; /* Adds a top border */
+    margin: 1em 0; /* Adds spacing */
+}
+
+pre {
+    font-family: monospace, monospace; /* Applies monospace font */
+    font-size: 1em; /* Sets size */
+}
+
+a {
+    text-decoration: none; /* Removes underlines */
+    color: inherit; /* Inherits color from parent */
+}
+
+img {
+    max-width: 100%; /* Responsive images */
+    height: auto; /* Maintains aspect ratio */
+}
+
+button {
+    font-family: inherit; /* Inherits font */
+    font-size: inherit; /* Inherits font size */
+    line-height: inherit; /* Inherits line height */
+    overflow: visible; /* Prevents overflow */
+}
+
+input, button, textarea, select {
+    font-family: inherit; /* Inherits font */
+    font-size: inherit; /* Inherits font size */
+    line-height: inherit; /* Inherits line height */
+}
+
+table {
+    border-collapse: collapse; /* Merges borders */
+    border-spacing: 0; /* Removes spacing */
+}
